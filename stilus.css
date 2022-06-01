@@ -1,0 +1,189 @@
+:root{
+    --background: linear-gradient(45deg,#1b140c,#6b4b2c);
+    --backgrounda: linear-gradient(45deg,rgb(68, 45, 35),rgb(99, 65, 51));
+    --backgroundas: linear-gradient(45deg,rgb(99, 65, 51),rgb(68, 45, 35));
+    --backgroundashover: linear-gradient(45deg,rgb(68, 45, 35),rgb(99, 65, 51));
+}
+
+a:visited, a:active {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
+a {
+    border: 4px groove rgba(247, 135, 100,0);
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    font-size: 30px;
+    background: var(--backgrounda);
+    transition: all 0.5s;
+}
+a#s {
+    border: 4px groove rgb(247, 135, 100);
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    background: var(--backgroundas);
+}
+a:hover{
+    border: 4px groove rgba(247, 135, 100,1);
+    font-size: 35px;
+}
+body {
+    background-color: rgb(80, 80, 80);
+    background-size: 100%;
+    background-image: url(Háttér/Old-Parchment.png);
+    font-size: 20px;
+}
+
+div#urlapok {
+    background: var(--background);
+    padding: 20px;
+    min-height: 200px;
+    margin-right: .5%;
+    margin-left: .5%;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    border: 10px outset rgb(184, 111, 82);
+    border-radius: 15px;
+    overflow: auto;
+}
+
+div.tomb{
+    border: 5px solid wheat;
+    border-radius: 15px;
+    background-color:rgb(167, 137, 100);
+    align-items: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+div.tomb p{
+    color: black;
+
+}
+
+div.tomb li{
+    color: black;
+}
+
+div.tomb h1,h2,h3,h4,h5,h6{
+    color: black;
+}
+
+p{
+    color: white;
+}
+label {
+    color: white;
+}
+h1{
+    color: rgb(255, 179, 57);
+}
+
+img.kepgaleria{
+    height: 25%;
+    width: 25%;
+}
+
+a.kereso{
+    text-decoration: none;
+    font-size: 30px;
+    background-color:#4e3822;
+    border: 5px solid #cebcaa;
+    border-radius: 0px;
+    transition: all 0.5s;
+    
+}
+a.kereso:hover{
+    border-radius: 21px;
+}
+
+nav#kereso{
+    margin: center;
+}
+nav#keresoanchored{
+    align-items: center;
+}
+div.BAL{
+    width: 50%;
+    border-right: 5px solid #1a0f00;
+    float: left;
+}
+
+
+#vissza {
+    background-color: hsla(0, 0, 0, 1);
+    position: fixed;
+    left: 43%;
+    bottom: -60px;
+    width: auto;
+    display: block;
+    transition: top 0.3s;
+}
+#vissza a:hover {
+    background-color: #684a2b;
+    color: rgb(0, 0, 0);
+}
+#vissza a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+div.JOBB{
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+}
+
+p.paragrafus{
+    text-justify: newspaper;
+}
+
+img.indexkep{
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: border-color 0.5s;
+}
+
+img.indexkep:hover{
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+div.rejtett img{
+    position: absolute;
+    top: 40px;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    opacity: 0;
+    transition: opacity 0.4s display 0.4s;
+    display: none;
+}
+
+span.alahuzott{
+    border-bottom: 2px dashed black;
+}
+
+.rejtettkep{
+    border: 10px solid rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+}
+
+nav.cntr{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: auto !important;
+    width: 75%;
+}
+
+div.cntr{
+    margin: auto !important;
+    width: 10%;
+}
+
+div.kepcenter{
+    margin-left: 20%;
+}
